@@ -4,7 +4,7 @@ import Mobile from './Mobile'
 function MobileBackground() {
     return (
         <div className='mb-with-bg'>
-            <div style={{
+            <div className='mb-bg' style={{
                 height: '400px',
                 width: '630px',
                 borderRadius : '10px',

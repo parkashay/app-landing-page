@@ -6,9 +6,9 @@ function Landing() {
   return (
     <div className='landing'>
       <div style={{
-        width: '1200px'
+        width: '60vw'
       }}>
-        <TextView text={data.heroHeading} fontSize={9} />
+        <TextView text={data.heroHeading} fontSize={7} />
         <Qoutation quotation={data.quote} />
       </div>
     </div>

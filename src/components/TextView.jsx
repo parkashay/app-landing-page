@@ -2,7 +2,7 @@ import React from 'react'
 
 function TextView({text, fontSize}) {
   return (
-    <div className='heading' style={{
+    <div className='textview' style={{
       fontSize : `${fontSize}rem`
     }}>{text}</div>
   )
