@@ -1,5 +1,4 @@
 import React from 'react'
-import TextView from '../components/TextView'
 import Qoutation from '../components/Qoutation'
 import { data } from '../data'
 function Footer() {
@@ -30,7 +29,7 @@ function Footer() {
                 <div className="footer-links">
                     {
                         categories.map(c => {
-                            return <a href={c.link} className='footer-link'>{c.title}</a>
+                            return <a href={c.link} className='footer-link' key={c.title}>{c.title}</a>
                         })
                     }
                 </div>
@@ -41,7 +40,7 @@ function Footer() {
                 <div className="footer-links">
                     {
                         about.map(a => {
-                            return <a href={a.link} className='footer-link'>{a.title}</a>
+                            return <a href={a.link} className='footer-link' key={a.title}>{a.title}</a>
                         })
                     }
                 </div>
@@ -53,7 +52,7 @@ function Footer() {
                 <div className="footer-links">
                     {
                         follow.map(f => {
-                            return <a href={f.link} className='footer-link'>{f.title}</a>
+                            return <a href={f.link} className='footer-link' key={f.title}>{f.title}</a>
                         })
                     }
                 </div>
