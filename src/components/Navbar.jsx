@@ -30,26 +30,26 @@ function Navbar() {
     return (
         <div className={isScrolled? 'scroll-navbar': 'navbar'}>
             <div className='nav-links'>
-                <a href="#" className="nav-link">Home</a>
-                <a href="#" className="nav-link">About</a>
-                <a href="#" className="nav-link">Testimonials</a>
-                <a href="#" className="nav-link">Contact</a>
+                <a href="/" className="nav-link">Home</a>
+                <a href="about" className="nav-link">About</a>
+                <a href="testimonials" className="nav-link">Testimonials</a>
+                <a href="contact" className="nav-link">Contact</a>
             </div>
 
             <div className='app-title'>smartHome</div>
             <div className="auth">
-                <a href="#" className='login'>Login</a>
-                <a href="#" className="signup">Sign up</a>
+                <a href="login" className='login'>Login</a>
+                <a href="signup" className="signup">Sign up</a>
             </div>
 
            
                 <div className={menu? 'nav-links-res': 'nav-links-res-hide'}>
-                    <a href="#" className="nav-link">Home</a>
-                    <a href="#" className="nav-link">About</a>
-                    <a href="#" className="nav-link">Testimonials</a>
-                    <a href="#" className="nav-link">Contact</a>
-                    <a href="#" className='login'>Login</a>
-                    <a href="#" className="signup">Sign up</a>
+                    <a href="/" className="nav-link">Home</a>
+                    <a href="about" className="nav-link">About</a>
+                    <a href="testimonials" className="nav-link">Testimonials</a>
+                    <a href="contact" className="nav-link">Contact</a>
+                    <a href="login" className='login'>Login</a>
+                    <a href="signup" className="signup">Sign up</a>
                 </div>
              
 

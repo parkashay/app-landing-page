@@ -3,6 +3,10 @@ export const data = {
     quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temqua. Ut enim ad minim veniam, quis nostrud exercitation',
     appstore: 'https://apple.com',
     googleplay: 'https://google.com',
+    facebook : 'https://facebook.com',
+    instagram : 'https://instagram.com',
+    twitter : 'https://twitter.com',
+    linkedIn : 'https://linkedin.com',
 
     about:
         [
@@ -80,26 +84,26 @@ export const data = {
         title: 'smartHome',
         text: 'Automate your entire healthcare hiring, onboarding and compliance with a true technology platform',
         categories: [
-            { title: 'Product Management', link: '#' },
-            { title: 'Design / Creatives', link: '#' },
-            { title: 'Education & Training', link: '#' },
-            { title: 'UI/UX Designers', link: '#' },
-            { title: 'Development', link: '#' },
-            { title: 'Customer Support', link: '#' }
+            { title: 'Product Management', link: 'pm' },
+            { title: 'Design / Creatives', link: 'design' },
+            { title: 'Education & Training', link: 'edu' },
+            { title: 'UI/UX Designers', link: 'ui' },
+            { title: 'Development', link: 'dev' },
+            { title: 'Customer Support', link: 'cs' }
         ],
         about: [
-            { title: 'About Us', link: '#' },
-            { title: 'Partnerships', link: '#' },
-            { title: 'Finance Experts', link: '#' },
-            { title: 'Project Management', link: '#' },
-            { title: 'Product Manager', link: '#' },
-            { title: 'The Team', link: '#' }
+            { title: 'About Us', link: 'about' },
+            { title: 'Partnerships', link: 'partners' },
+            { title: 'Finance Experts', link: 'finance' },
+            { title: 'Project Management', link: 'pm' },
+            { title: 'Product Manager', link: 'pm' },
+            { title: 'The Team', link: 'team' }
         ],
         follow: [
-            { title: 'Facebook', link: '#' },
-            { title: 'Twitter', link: '#' },
-            { title: 'Instagram', link: '#' },
-            { title: 'Linked In', link: '#' }
+            { title: 'Facebook', link: 'https://facebook.com' },
+            { title: 'Twitter', link: 'https://twitter.com' },
+            { title: 'Instagram', link: 'https://instagram.com' },
+            { title: 'Linked In', link: 'https://linkedin.com' }
         ]
     }
 
