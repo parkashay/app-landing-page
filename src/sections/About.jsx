@@ -7,7 +7,7 @@ function About() {
         <div style={{
           marginBottom : '200px'
         }}>
-        <TextView text={'About Us'} fontSize={7} />
+        <TextView text={'About Us'} fontSize={5} />
         </div>
         <AboutContent />
     </div>

@@ -67,6 +67,11 @@
     margin-left: 5vw;
     z-index: 2;
 }
+
+.login :hover{
+    color: black;
+    transition: 0.3s all;
+}
 .nav-links-res-hide{
    display: none;
 }
@@ -139,9 +144,8 @@
 }
 
 .mobile {
-    background-color: green;
-    border: 2px solid black;
-    border-radius: 10px;
+    border: 1px solid black;
+    border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;

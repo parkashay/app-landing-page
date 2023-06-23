@@ -9,12 +9,12 @@ function DownloadLink() {
   return (
     <div className='download-link'>
         <div className='download-link-left-part'>
-            <TextView text={txt.title} fontSize={7}/>
+            <TextView text={txt.title} fontSize={5}/>
             <Qoutation quotation={txt.text} />
             <Download />
         </div>
         <div className='download-link-right-part'>
-            <Mobile height={800} width={400} />
+            <Mobile height={580} width={290} />
         </div>
     </div>
   )

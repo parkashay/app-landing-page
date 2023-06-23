@@ -5,14 +5,14 @@ function MobileBackground() {
     return (
         <div className='mb-with-bg'>
             <div className='mb-bg' style={{
-                height: '400px',
-                width: '630px',
+                height: '300px',
+                width: '500px',
                 borderRadius : '10px',
                 backgroundColor: '#1E5AF9',
                 position: 'absolute',
-                transform : 'translate(0%, 20%)'
+                transform : 'translate(0%, 25%)'
             }}></div>
-            <Mobile height={720} width={360} />
+            <Mobile height={580} width={290} />
             </div>
     )
 }

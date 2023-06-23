@@ -7,7 +7,7 @@ function FAQs() {
     const faqs = data.FAQs
     return (
         <div className='FAQ-section'>
-            <TextView text={'FAQ\'s'} fontSize={7} />
+            <TextView text={'FAQ\'s'} fontSize={5} />
             <div className="FAQs">
                 {faqs.map(faq => {
                     return <Accordion title={faq.question} content={faq.answer} key={faq.question}/>

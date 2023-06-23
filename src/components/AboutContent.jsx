@@ -12,7 +12,7 @@ function AboutContent() {
                 <div className={index % 2 === 0 ? 'about-content' : 'about-content-rev'} key={d.heading}>
                     <MobileBackground />
                     <div className='about-text'>
-                        <TextView text={d.heading} fontSize={4} />
+                        <TextView text={d.heading} fontSize={3} />
                         <Qoutation quotation={d.text} />
                         <Button text={'Learn More'} />
                     </div>

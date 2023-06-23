@@ -9,9 +9,9 @@ function Mobiles() {
 
     }}>
       <div className='mobiles'>
-        <Mobile height={720} width={360} />
-        <Mobile height={800} width={400} />
-        <Mobile height={720} width={360} />
+        <Mobile height={512} width={250} />
+        <Mobile height={580} width={290} />
+        <Mobile height={512} width={250} />
       </div>
       <div style={{
         position: 'relative',
@@ -20,7 +20,8 @@ function Mobiles() {
         <div style={{
           display : 'flex',
           justifyContent : 'center',
-          alignItems : 'center'
+          alignItems : 'center',
+          transform : 'translate(0%, 100%)'
         }}>
           <Download />
         </div>
