@@ -8,7 +8,7 @@ function Landing() {
       <div style={{
         width: '60vw'
       }}>
-        <TextView text={data.heroHeading} fontSize={7} />
+        <TextView text={data.heroHeading} fontSize={6} />
         <Qoutation quotation={data.quote} />
         <div className="icons">
           <a href='#' class="icon fa-brands fa-facebook"></a>
