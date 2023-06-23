@@ -10,6 +10,12 @@ function Landing() {
       }}>
         <TextView text={data.heroHeading} fontSize={7} />
         <Qoutation quotation={data.quote} />
+        <div className="icons">
+          <a href='#' class="icon fa-brands fa-facebook"></a>
+          <a href='#' class=" icon fa-brands fa-instagram"></a>
+          <a href='#' class=" icon fa-brands fa-twitter"></a>
+          <a href='#' class="icon fa-brands fa-linkedin"></a>
+        </div>
       </div>
     </div>
   )

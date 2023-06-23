@@ -63,7 +63,7 @@ function Navbar() {
             style={{
                 fontSize : '3rem',
                 color : 'white',
-                transform : 'translate(0%, -40%)'
+                transform : 'translate(0%, -50%)'
             }}
             >×</div> 
             }
