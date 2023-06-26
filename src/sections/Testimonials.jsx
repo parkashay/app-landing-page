@@ -6,8 +6,12 @@ function Testimonials() {
     const testimonials = data.testimonials
   return (
     <div className='testimonials-section'>
+
+      {/* Title */}
         <TextView text={'Testimonials'} fontSize={5} />
         <div className='testimonials'>
+
+          {/* Getting the testimonials from the json file  */}
             {testimonials.map(testimonial => {
                 return <Testimonial testimonial = {testimonial} key={testimonial.name}/>
             })}

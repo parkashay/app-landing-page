@@ -7,10 +7,15 @@ function FAQs() {
     const faqs = data.FAQs
     return (
         <div className='FAQ-section'>
+
+            {/* Heading */}
             <TextView text={'FAQ\'s'} fontSize={5} />
+
+            {/* Frequently asked Questions */}
             <div className="FAQs">
                 {faqs.map(faq => {
-                    return <Accordion title={faq.question} content={faq.answer} key={faq.question}/>
+                    // While calling the accordion component, the title prop determines the question and the content prop determines the answer.
+                    return <Accordion title={faq.question} content={faq.answer} key={faq.question} />
                 })}
             </div>
         </div>

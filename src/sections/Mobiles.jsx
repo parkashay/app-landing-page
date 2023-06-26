@@ -1,34 +1,27 @@
-import React from 'react'
-import Mobile from '../components/Mobile'
-import Download from '../components/Download'
+import React from "react";
+import Mobile from "../components/Mobile";
+import Download from "../components/Download";
 function Mobiles() {
   return (
-    <div style={{
-      display: 'flex',
-      flexDirection: 'column'
-
-    }}>
-      <div className='mobiles'>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+      }}
+    >
+      {/* Mobile devices containers */}
+      <div className="mobiles">
         <Mobile height={512} width={250} />
         <Mobile height={580} width={290} />
         <Mobile height={512} width={250} />
       </div>
-      <div style={{
-        position: 'relative',
-        top: '-300px'
-      }}>
-        <div style={{
-          display : 'flex',
-          justifyContent : 'center',
-          alignItems : 'center',
-          transform : 'translate(0%, 100%)'
-        }}>
-          <Download />
-        </div>
+
+      {/* AppStore and Googles Play Link */}
+      <div className="hero-download">
+        <Download />
       </div>
     </div>
-
-  )
+  );
 }
 
-export default Mobiles
+export default Mobiles;

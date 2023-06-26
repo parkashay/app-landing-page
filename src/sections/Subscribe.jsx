@@ -7,7 +7,11 @@ function Subscribe() {
   return (
     <div className='subscribe-section'>
         <div className="subscribe-txt">
+
+            {/* Title */}
             <TextView text={d.title} fontSize={3} />
+
+            {/* Description */}
             <Qoutation quotation={d.text} />
         </div>
         <button style={{

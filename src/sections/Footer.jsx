@@ -11,12 +11,15 @@ function Footer() {
     const about = d.about
     const follow = d.follow
     return (
+
         <div className='footer-section'>
             <div className='footer-tab'>
                 <div style={{
                     fontSize: '2.5rem',
                     fontWeight: '700'
                 }}>smartHome</div>
+
+                {/* Small description for footer section */}
                 <Qoutation quotation={d.text} />
                 <form className='footer-form' onSubmit={handleSubmit}>
                     <input type="email" className='footer-input' placeholder='Email Address' required />
@@ -28,6 +31,7 @@ function Footer() {
                 <div className="footer-title">Categories</div>
                 <div className="footer-links">
                     {
+                        // Getting the links under categories category for the footer
                         categories.map(c => {
                             return <a href={c.link} className='footer-link' key={c.title}>{c.title}</a>
                         })
@@ -39,6 +43,7 @@ function Footer() {
                 <div className="footer-title">About</div>
                 <div className="footer-links">
                     {
+                        // Getting the links under about category for the footer
                         about.map(a => {
                             return <a href={a.link} className='footer-link' key={a.title}>{a.title}</a>
                         })
@@ -51,6 +56,7 @@ function Footer() {
                 <div className="footer-title">Follow Us</div>
                 <div className="footer-links">
                     {
+                        // Getting the links under follow category for the footer
                         follow.map(f => {
                             return <a href={f.link} className='footer-link' key={f.title}>{f.title}</a>
                         })

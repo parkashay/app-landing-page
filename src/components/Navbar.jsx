@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 
 function Navbar() {
-    const [isScrolled, setIsScrolled] = useState(false);
-    const [menu, setMenu] = useState(false)
+    const [isScrolled, setIsScrolled] = useState(false);  // for detecting scroll
+    const [menu, setMenu] = useState(false)   //to check if the menu is open or not in small screens
     const hamburgerClick = () => {
         setMenu(!menu)
         console.log(menu)
