@@ -172,7 +172,7 @@
 
 .appstore,
 .googleplay {
-  width: 250px;
+  width: 200px;
   cursor: pointer;
 }
 
@@ -411,7 +411,7 @@
   }
   .googleplay,
   .appstore {
-    max-width: 300px;
+    width: 150px;
   }
   .about-content {
     flex-direction: column;
