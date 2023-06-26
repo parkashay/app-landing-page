@@ -36,14 +36,13 @@ function Accordion({ title, content }) {
 
                 {/* Question */}
                 <div style={{
-                    fontSize: '1.5rem',
+                    fontSize: '1.1rem',
                     color : 'black'
                 }}>{title}</div>
             </div>
 
             {/* Answer */}
             <div style={open ? {
-                fontSize: '1.5rem',
                 textAlign: 'left',
                 color: 'gray',
                 marginLeft: '6rem',
@@ -56,7 +55,6 @@ function Accordion({ title, content }) {
                 maxHeight: '0px',
                 overflow: 'hidden',
                 transition : 'max-height,padding 0.5s ease-out',
-                fontSize: '1.5rem',
                 textAlign: 'left',
                 color: 'gray',
                 marginLeft: '6rem',
