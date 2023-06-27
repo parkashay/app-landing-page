@@ -1,6 +1,7 @@
 import React from 'react'
 import Qoutation from '../components/Qoutation'
 import { data } from '../data'
+import { Link } from 'react-router-dom';
 function Footer() {
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -75,7 +76,12 @@ function Footer() {
                         color : 'white',
                         marginTop : '100px'
                     }}
-                    >Copyright &copy; 2021 All Rights Reserved smartHome</div>
+                    >Copyright &copy; 2021 All Rights Reserved 
+                    <Link to='/admin' style={{
+                        textDecoration : 'none',
+                        color : 'white',
+                    }} >Bandezz</Link>
+                    </div>
         </div>
     )
 }
