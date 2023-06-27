@@ -4,7 +4,7 @@ import { data } from '../data.js'
 import HeroHeading from '../components/HeroHeading'
 function Landing() {
   return (
-    <div className='landing'>
+    <div className='landing' id='home'>
       <div style={{
         width: '60vw'
       }}>

@@ -1,4 +1,5 @@
 
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
 import About from './sections/About';
@@ -9,10 +10,11 @@ import Landing from './sections/Landing';
 import Mobiles from './sections/Mobiles';
 import Subscribe from './sections/Subscribe';
 import Testimonials from './sections/Testimonials';
+import Dashboard from './components/dashboard/Dashboard';
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter className="App">
       <Navbar />
       <Landing />
       <Mobiles />
@@ -22,7 +24,10 @@ function App() {
       <DownloadLink />
       <Subscribe />
       <Footer />
-    </div>
+      <Routes>
+        <Route path='admin' element = {<Dashboard />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

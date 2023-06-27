@@ -30,9 +30,9 @@ function Navbar() {
     return (
         <div className={isScrolled? 'scroll-navbar': 'navbar'}>
             <div className='nav-links'>
-                <a href="/" className="nav-link">Home</a>
-                <a href="about" className="nav-link">About</a>
-                <a href="testimonials" className="nav-link">Testimonials</a>
+                <a href="#home" className="nav-link">Home</a>
+                <a href="#about" className="nav-link">About</a>
+                <a href="#testimonials" className="nav-link">Testimonials</a>
                 <a href="contact" className="nav-link">Contact</a>
             </div>
 

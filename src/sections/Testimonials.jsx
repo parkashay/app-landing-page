@@ -5,7 +5,7 @@ import { data } from '../data'
 function Testimonials() {
     const testimonials = data.testimonials
   return (
-    <div className='testimonials-section'>
+    <div className='testimonials-section' id='testimonials'>
 
       {/* Title */}
         <TextView text={'Testimonials'} fontSize={5} />

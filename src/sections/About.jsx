@@ -3,7 +3,7 @@ import AboutContent from '../components/AboutContent'
 import SectionHeading from '../components/SectionHeading'
 function About() {
   return (
-    <div className='about'>
+    <div className='about' id='about'>
         <div style={{
           marginBottom : '200px'
         }}>
