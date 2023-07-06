@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/app-landing-page/static/css/main.08bb3c23.css",
-    "main.js": "/app-landing-page/static/js/main.9fb4dddf.js",
+    "main.css": "/app-landing-page/static/css/main.458b8588.css",
+    "main.js": "/app-landing-page/static/js/main.757f019f.js",
     "static/media/mobile.png": "/app-landing-page/static/media/mobile.96210719960765940a1c.png",
     "static/media/appstore.png": "/app-landing-page/static/media/appstore.8164d76372ab641538b0.png",
     "static/media/googleplay.png": "/app-landing-page/static/media/googleplay.8d1410d51db51457ddd6.png",
     "index.html": "/app-landing-page/index.html",
-    "main.08bb3c23.css.map": "/app-landing-page/static/css/main.08bb3c23.css.map",
-    "main.9fb4dddf.js.map": "/app-landing-page/static/js/main.9fb4dddf.js.map"
+    "main.458b8588.css.map": "/app-landing-page/static/css/main.458b8588.css.map",
+    "main.757f019f.js.map": "/app-landing-page/static/js/main.757f019f.js.map"
   },
   "entrypoints": [
-    "static/css/main.08bb3c23.css",
-    "static/js/main.9fb4dddf.js"
+    "static/css/main.458b8588.css",
+    "static/js/main.757f019f.js"
   ]
 }
