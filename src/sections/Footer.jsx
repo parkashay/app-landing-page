@@ -12,7 +12,7 @@ function Footer() {
     const follow = d.follow
     return (
 
-        <div className='footer-section'>
+        <div className='footer-section' id="footer">
             <div className='footer-tab'>
                 <div style={{
                     fontSize: '2.5rem',
